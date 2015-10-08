@@ -1,7 +1,19 @@
 {
   "name": "flip-it",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "main": [
+    "dist/flip.js"
+  ],
+  "ignore": [
+    "**./*",
+    "node_modules",
+    "components",
+    "grunt"
+  ],
   "devDependencies": {
-    "jquery": "latest",
     "normalize-css": "~3.0.3",
     "bootstrap": "~3.3.5"
   }
